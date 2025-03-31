@@ -59,8 +59,6 @@ Daily score = `(rating / base) ^ exponent`
    python codeforces_tracker.py
    ```
 
-Since `.bat` files only work on Windows, add a small **OS note** under **Installation & Usage**:
-```md
 ### Note:
 - **Windows users** should use `tracker.bat` to launch the tracker.
 - **Mac/Linux users** must run `python codeforces_tracker.py` directly.
