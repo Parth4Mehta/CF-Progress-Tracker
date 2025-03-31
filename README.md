@@ -35,12 +35,16 @@ Daily score = `(rating / base) ^ exponent`
    ```sh
    start tracker.bat
    ```
+   If the batch file doesn't work, try running:
+   ```sh
+   python codeforces_tracker.py
+   ```
 
 ### Mac/Linux
 1. Install Python (if not already installed).
 2. Clone the repository:
    ```sh
-   git clone https://github.com/<your-username>/CF-Progress-Tracker.git
+   git clone https://github.com/Parth4Mehta/CF-Progress-Tracker.git
    ```
 3. Navigate to the directory:
    ```sh
@@ -54,6 +58,12 @@ Daily score = `(rating / base) ^ exponent`
    ```sh
    python codeforces_tracker.py
    ```
+
+Since `.bat` files only work on Windows, add a small **OS note** under **Installation & Usage**:
+```md
+### Note:
+- **Windows users** should use `tracker.bat` to launch the tracker.
+- **Mac/Linux users** must run `python codeforces_tracker.py` directly.
 
 ## Help
 ### Codeforces Progress Tracker Help
@@ -71,7 +81,7 @@ Hello bud, this widget tracks and scores your CF journey based on **ppd**.
 - **Record management**
 
 ## Contributions
-Feel free to contribute! Submit a pull request or report issues in the [GitHub Issues](https://github.com/<your-username>/CF-Progress-Tracker/issues) section.
+Feel free to contribute! Submit a pull request or report issues in the [GitHub Issues](https://github.com/Parth4Mehta/CF-Progress-Tracker/issues) section.
 
 ## License
 This project is licensed under the **MIT License**.
