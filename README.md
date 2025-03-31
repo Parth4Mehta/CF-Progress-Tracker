@@ -21,7 +21,7 @@ Daily score = `(rating / base) ^ exponent`
 1. Install Python (if not already installed) from [python.org](https://www.python.org/).
 2. Clone the repository:
    ```sh
-   git clone https://github.com/<your-username>/CF-Progress-Tracker.git
+   git clone https://github.com/Parth4Mehta/CF-Progress-Tracker.git
    ```
 3. Navigate to the directory:
    ```sh
